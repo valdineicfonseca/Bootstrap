@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style type="text/css">
+
+        body {
+            background-color: #597687;
+            
+        }
+        .row {
+            margin-top: 50px;
+        }
+         /* Pesquisa por todas as classe col dentro de row*/
+        .row [class^=col]{
+            background-color: #90AFC5   ;
+            border: 5px solid #2A3132;
+            border-radius: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+ 
+    <div class="container">
+        
+        <!-- Linha grid-->
+        <div class="row">
+            <div class="col">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam obcaecati totam dolorum omnis iste eius nisi sunt placeat? Maxime alias sed, ipsum harum quibusdam delectus aperiam assumenda. Voluptates, vero sit?
+            </div>
+            
+            <div class="col">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam obcaecati totam dolorum omnis iste eius nisi sunt placeat? Maxime alias sed, ipsum harum quibusdam delectus aperiam assumenda. Voluptates, vero sit?
+            </div>
+            
+            <div class="col">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam obcaecati totam dolorum omnis iste eius nisi sunt placeat? Maxime alias sed, ipsum harum quibusdam delectus aperiam assumenda. Voluptates, vero sit?
+            </div>
+            
+
+            
+        </div>
+        <!-- Linha grid-->
+        <div class="row">
+            
+            <!-- Coluna grid-->
+            <div class="col-5">
+                imagem
+            </div>
+            
+            <!-- Coluna grid : max ate 12 cols-->
+            <div class="col-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad quasi perferendis soluta qui. Velit ad, suscipit deserunt necessitatibus enim ullam voluptatum soluta, iste aspernatur temporibus et consequuntur odit nisi?
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
